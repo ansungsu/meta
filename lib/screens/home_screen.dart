@@ -23,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       category: '카페',
       startDate: DateTime(2025, 8, 1),
       endDate: DateTime(2025, 8, 31),
+
       // 위치 필드는 선택
       // locationLat: 36.7697, locationLng: 126.9320, placeName: '순천향대 정문 앞 카페 XYZ',
       createdAt: DateTime(2025, 8, 10, 10, 30), // ✅ 게시물 등록시간
@@ -34,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
       category: '음식점',
       startDate: DateTime(2025, 8, 5),
       endDate: DateTime(2025, 8, 25),
+
       // locationLat: 36.7709, locationLng: 126.9350, placeName: '치킨나라 순천향대점',
       createdAt: DateTime(2025, 8, 11, 9, 15), // ✅ 최신
     ),
@@ -44,6 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
       category: '문구/서점',
       startDate: DateTime(2025, 8, 3),
       endDate: DateTime(2025, 8, 30),
+
       // locationLat: 36.7689, locationLng: 126.9312, placeName: '대학서점',
       createdAt: DateTime(2025, 8, 8, 17, 00),
     ),
